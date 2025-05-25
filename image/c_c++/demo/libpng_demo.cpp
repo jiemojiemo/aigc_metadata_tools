@@ -204,7 +204,7 @@ int main(int argc, char* argv[]) {
   auto inputPngPath = argv[1];
   auto outputPngPath = argv[2];
 
-  auto aigcText = R"({"Label": "value1", "ContentProducer": "value2", "ProduceID": "value3", "ReservedCode1": "value4", "ContentPropagator": "value5", "PropagateID": "value6", "ReservedCode: "value7"})";
+  auto aigcText = R"({"Label": "value1", "ContentProducer": "value2", "ProduceID": "value3", "ReservedCode1": "value4", "ContentPropagator": "value5", "PropagateID": "value6", "ReservedCode2: "value7"})";
   write_png_with_text(inputPngPath, outputPngPath, "AIGC", aigcText);
 
   auto keyword = "AIGC";

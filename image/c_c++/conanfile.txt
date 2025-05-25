@@ -1,5 +1,6 @@
 [requires]
 libpng/1.6.40
+exiv2/0.28.2
 
 [generators]
 CMakeDeps
