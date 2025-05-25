@@ -1,0 +1,6 @@
+[requires]
+libpng/1.6.40
+
+[generators]
+CMakeDeps
+CMakeToolchain
