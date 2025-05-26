@@ -43,7 +43,6 @@ static void show_tag(ExifData *d, ExifIfd ifd, ExifTag tag)
 int main(int argc, char **argv)
 {
     ExifData *ed;
-    ExifEntry *entry;
 
     if (argc < 2) {
         printf("Usage: %s image.jpg\n", argv[0]);

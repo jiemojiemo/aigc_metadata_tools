@@ -2,6 +2,7 @@
 libpng/1.6.40
 exiv2/0.28.2
 libexif/0.6.24
+libjpeg/9f
 [generators]
 CMakeDeps
 CMakeToolchain

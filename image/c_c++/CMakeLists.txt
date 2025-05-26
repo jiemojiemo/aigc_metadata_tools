@@ -7,5 +7,6 @@ set(CONAN_DISABLE_CHECK_COMPILER true)
 find_package(PNG REQUIRED)
 find_package(exiv2 REQUIRED)
 find_package(libexif REQUIRED)
+find_package(JPEG REQUIRED)
 
 add_subdirectory(demo)
