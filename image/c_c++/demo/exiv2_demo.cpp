@@ -31,7 +31,7 @@ int main(int argc, char *const argv[]) {
       the file.
      */
     std::string aigcText = R"({"AIGC":{"Label":"value1","ContentProducer":"value2","ProduceID":"value3","ReservedCode1":"value4","ContentPropagator":"value5","PropagateID":"value6","ReservedCode2: ":"value7"}} )";
-    auto commentText = "charset=Undefined " + aigcText;
+    auto commentText = "charset=Ascii " + aigcText;
 
     // exifData["Exif.Photo.UserComment"] = "charset=Unicode A Unicode Exif comment added with Exiv2";
     // exifData["Exif.Photo.UserComment"] = "charset=Undefined An undefined Exif comment added with Exiv2";

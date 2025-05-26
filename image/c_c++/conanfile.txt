@@ -1,7 +1,7 @@
 [requires]
 libpng/1.6.40
 exiv2/0.28.2
-
+libexif/0.6.24
 [generators]
 CMakeDeps
 CMakeToolchain
